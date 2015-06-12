@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<style type="text/css">
+		.menu{
+			margin: 0 auto;
+			height: 100px;
+			width: 980px;
+		}
+
+		.menu .menu_area{
+			float: left;
+			height: 30px;
+			position: relative;
+		}
+		.menu a,.menu a:visited{
+			display: block;
+			font-size: 16px;
+			font-weight: 700;
+			background-color: #b00;
+			width: 100px;
+			height: 30px;
+			padding: 0 20px;
+			text-align: center;
+			border: 1px solid #300;
+			border-top: none;
+			border-right: none;
+			line-height: 30px;
+		}
+		.menu a:hover	{
+			background-color: #f00;
+		}
+
+		.menu .menu_popdown_area:hover{
+			visibility: visible;
+		}
+
+		.menu .menu_popdown_area{
+			visibility: hidden;
+		}
+	
+		.menu a.menulink:hover +.menu_popdown_area{			
+			visibility: visible;
+		}
+	</style>
+</head>
+<body>
+	<div class="menu">
+		<div class="menu_area">
+			<a href="#" class="menulink">菜单1</a>			
+			<div class="menu_popdown_area">
+				<a href="#" class="menulink2">菜单2</a>
+				<a href="#" class="menulink2">菜单3</a>
+				<a href="#" class="menulink2">菜单4</a>
+			</div>
+		</div>
+		<div class="menu_area">
+			<a href="#" class="menulink">菜单1</a>
+			<div class="menu_popdown_area">
+				<a href="#" class="menulink2">菜单2</a>
+				<a href="#" class="menulink2">菜单3</a>
+				<a href="#" class="menulink2">菜单4</a>
+			</div>
+		</div>
+		<div class="menu_area">
+			<a href="#" class="menulink">菜单1</a>
+			<div class="menu_popdown_area">
+				<a href="#" class="menulink2">菜单2</a>
+				<a href="#" class="menulink2">菜单3</a>
+				<a href="#" class="menulink2">菜单4</a>
+			</div>
+		</div>
+		<div class="menu_area">
+			<a href="#" class="menulink">菜单1</a>
+			<div class="menu_popdown_area">
+				<a href="#" class="menulink2">菜单2</a>
+				<a href="#" class="menulink2">菜单3</a>
+				<a href="#" class="menulink2">菜单4</a>
+			</div>
+		</div>
+
+	</div>
+	
+</body>
+</html>

@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+html,body,h1,h2,h3,h4,h5,h6,div,p,ol,li,ul,dd,dl,dt,form,input,textarea,th,td{
+
+	margin : 0; padding : 0;
+}
+
+body{
+  font-size: 12px;
+  font-family: "宋体";
+  color: #333;
+}
+
+table { border-collapse: collapse; border-spacing: 0; }
+img { border: 0; max-width: 100%; }
+
+/* =S 去除盒子的浮动*/
+.clearfix { *zoom: 1; }  
+.clearfix:before, .clearfix:after { 
+  display: table; 
+  line-height: 0; 
+  content: ""; 
+} 
+.clearfix:after {   clear: both; } 
+/* =E 去除盒子的浮动*/
+
+
+/*超级链接样式*/
+a:link, a:visited {
+  color: #333;
+  text-decoration: none;
+}
+a:hover{
+	color: #a10000;
+}

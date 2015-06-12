@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+/*=S 网站头部区域*/
+.head{
+	width: 100%;
+	display: block;
+	position: relative;	
+}
+
+.head .headTopArea{
+	height: 31px;
+	background-color: #f7f7f7;
+	border-bottom: 1px solid #ccc;
+	line-height: 32px;
+}
+
+.head .headTopArea .headTopBody{
+	margin:0px auto;
+	width: 1200px;
+}
+
+.head .headTopArea .headTopBody .headTopLeft{
+	float: left;
+	/*_margin-left: -3px;*/
+	width: auto !important;
+	min-width: 480px;
+	_width:480px;
+}
+
+.head .headTopArea .headTopBody .headTopRight{
+	float: right;
+	height: 31px;
+	width: 435px;	
+	*zoom:1;
+	position: relative;
+	z-index: 1000;
+}
+.head .headTopArea .headTopBody .headTopRight .top_active{
+	float: left;
+	margin-left: 7px;
+	height: 31px;
+	line-height: 31px;
+	width: 65px;	
+}
+
+.head .headTopArea .headTopBody .headTopRight .top_nav_link{	
+	background: url("../img/vanclsprite.png") no-repeat scroll -4px -4px;
+	background-position: 47px 0px;
+	line-height: 13px;	
+	display: block;
+	width: 65px;
+	height: 13px;
+	margin-top:9px;
+}
+
+.head .headTopArea .headTopBody .headTopRight .top_active .top_nav_icon_link{
+	background: url("../img/vanclsprite.png") no-repeat -26px -26px;
+	width: 40px;
+	height: 17px;
+	display: block;
+	margin-top:7px;
+}
+
+
+.head .headTopArea .headTopBody .headTopRight .top_active .top_nav_link:hover{
+
+}
+/*=E 网站头部区域*/
+
+
+
