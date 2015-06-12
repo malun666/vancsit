@@ -1,7 +1,6 @@
 @charset "utf-8";
 
 html,body,h1,h2,h3,h4,h5,h6,div,p,ol,li,ul,dd,dl,dt,form,input,textarea,th,td{
-
 	margin : 0; padding : 0;
 }
 
@@ -11,9 +10,13 @@ body{
   color: #333;
 }
 
+
+
 table { border-collapse: collapse; border-spacing: 0; }
 img { border: 0; max-width: 100%; }
-
+ul{
+	list-style: none;
+}
 /* =S 去除盒子的浮动*/
 .clearfix { *zoom: 1; }  
 .clearfix:before, .clearfix:after { 
