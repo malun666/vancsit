@@ -1,0 +1,164 @@
+.headWrap{
+	overflow: hidden; 
+	/*如果没有指定div的高度的话，可以自适应子元素（float）然后进行包裹，设定固定高宽的话自动隐藏*/
+
+}
+.headWrap .headAD{
+	min-width: 980px;
+	/*width:980px;*/
+	height: 50px;
+	overflow: hidden;
+	background-color: #b81b22;
+	border:0;
+	border:none;
+	/*margin:  0 auto;*/
+	text-align: center;
+}
+
+
+/* ===============S Top部地图区域*/
+.headWrap .topMap{
+	min-width: 980px;
+	height: 31px;
+	line-height: 31px;
+	vertical-align: center;
+	background-color: #f7f7f7;
+	border-bottom: 1px solid #ccc;
+}
+
+.headWrap .topMap .topMapWrap{
+	width: 980px;
+	height: 31px;
+	margin: 0 auto;
+}
+
+.topMapLeftWrap{
+	float: left;
+	height: 31px;
+}
+.topMapLeftWrap .topLink{
+	padding: 0 0.5em;
+}
+
+.topMapRightWrap{
+	float: right;
+	height: 31px;
+	overflow: hidden;
+}
+.topMapRightWrap .topMapLink{
+	margin:4px 12px 3px 5px;
+	line-height: 24px;
+	width: 65px;
+	float: left;
+	display: inline;
+	background: #fff url('../img/vanclsprite.png') 54px -24px no-repeat;
+}
+
+/* ==============Etop部地图区域*/
+
+/*===================S 搜索和 logo区*/
+.logoSearchWrap{
+	margin: 0 auto;
+	height: 62px;
+	margin: 20px auto 10px auto;
+	width: 980px;
+}
+
+.logoSearchWrap .logo a{
+	display: block;
+	height: 47px;
+	width: 166px;
+	margin-left: 20px;
+	background: url("../img/vanclsprite.png") 0 -59px;
+	float:left;
+	display: inline;
+}
+
+.logoSearchWrap .searchWrap{
+	float: right;	
+	height:50px;
+	border: 1px solid red;
+	width: 438px;
+}
+
+
+
+
+/*===================S 主菜单区域*/
+.mainNavWrap {
+	width:980px;    
+	height: 49px;
+	margin: 0 auto;
+}
+.mainNavWrap .mainNav li{
+	float: left;
+}
+.mainNavWrap .mainNav a{
+	display: block;
+	line-height: 49px;
+	text-align: center;
+	font-family: "Microsoft Yahei";
+	cursor: pointer;
+}
+
+.mainNavWrap .mainNav .navAll{
+	background-color: #b81b22;
+	color: #fff;
+	font-size: 17px;
+	font-weight: 700;
+	width: 260px;
+}
+
+.mainNavWrap .mainNav .navMenuLink{
+	background-color: #efefef;
+	color: #727272;	
+	width: 90px;
+	font-size: 16px;
+	vertical-align: center;
+}
+
+.mainNavWrap .mainNav a:hover{
+	color: red;
+	background-color: #bcbcbc;
+	cursor: wait;
+}
+/*============================E 主菜单区域*/
+
+/*===S   ===================祝工作区域*/
+.mainContentWrap{
+	margin: 0 auto;
+	overflow: hidden;
+	height: auto;
+	width: 980px;
+	position: relative;
+}
+
+.mainContentWrap .catList{
+	width: 260px;
+	height: 495px;
+	border: 1px solid red;
+	position: absolute;
+	top: 0;
+	left:0;
+}
+
+.focusTab{
+	width: 710px;
+	float:right;
+	height: 495px;
+	border: 1px solid red;
+
+}
+
+/*love  hate 原则： L V  H Adiv*/
+
+
+
+
+
+
+
+
+
+
+

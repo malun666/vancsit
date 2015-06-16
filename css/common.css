@@ -26,7 +26,7 @@ ul{
 } 
 .clearfix:after {   clear: both; } 
 /* =E 去除盒子的浮动*/
-
+      
 
 /*超级链接样式*/
 a:link, a:visited {
