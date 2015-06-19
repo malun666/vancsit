@@ -50,10 +50,18 @@
 	line-height: 24px;
 	width: 65px;
 	float: left;
-	display: inline;
-	background: #fff url('../img/vanclsprite.png') 54px -24px no-repeat;
+	display: block;
+	background: url('../img/vanclsprite.png')  no-repeat scroll 47px 6px;
 }
 
+.topMapWeiXin,.topMapWeiBo{
+	height: 16px;
+	width: 16px;
+	display: block;
+	margin: 7px 3px;
+	background: url('../img/vanclsprite.png')  no-repeat scroll -27px -27px;
+	float:left;
+}
 /* ==============Etop部地图区域*/
 
 /*===================S 搜索和 logo区*/
@@ -75,14 +83,54 @@
 }
 
 .logoSearchWrap .searchWrap{
+	padding-top:8px;
 	float: right;	
-	height:50px;
-	border: 1px solid red;
-	width: 438px;
+	height:60px;
+	/*border: 1px solid red;*/
+	width: 550px;
 }
 
+.searchWrap .searchUpWrap {
+	overflow: hidden;
+}
 
+.searchWrap .searchUpWrap .searchInput{
+	width: 379px;
+	height: 27px;
+	line-height: 27px;
+	border: 1px solid #ccc;
+	float: left;
+}
 
+.searchWrap .searchUpWrap .searchSub{
+	height: 27px;	
+	width: 49px;
+	background: url("../img/vanclsprite.png") -100px 0px;
+	border: 0;
+	float: left;
+}
+
+.searchWrap .searchUpWrap  .buyCarWrap{
+	float: right;	
+}
+.searchWrap .searchUpWrap  .buyCarWrap .buyCarLink{
+	display: block;
+	width:105px;
+	height: 27px;
+	line-height: 27px;
+	background: url("../img/vanclsprite.png") -154px 0px;
+
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+}
+
+.searchDownWrap{
+	padding: 3px 0px 0px 5px;
+	line-height: 18px;
+	font-size: 12px;
+	font-family: "宋体";
+}
 
 /*===================S 主菜单区域*/
 .mainNavWrap {
@@ -120,28 +168,70 @@
 .mainNavWrap .mainNav a:hover{
 	color: red;
 	background-color: #bcbcbc;
-	cursor: wait;
 }
 /*============================E 主菜单区域*/
 
-/*===S   ===================祝工作区域*/
+/*===S   ===================主工作区域*/
 .mainContentWrap{
 	margin: 0 auto;
 	overflow: hidden;
-	height: auto;
 	width: 980px;
+	height: auto;
 	position: relative;
+	padding-top:10px;
 }
 
+/*整个分类导航*/
 .mainContentWrap .catList{
 	width: 260px;
 	height: 495px;
 	border: 1px solid red;
 	position: absolute;
-	top: 0;
+	top: 0px;
 	left:0;
+	z-index: -1;
 }
 
+/*一个分类的组*/
+.catList .catGroupWrap{
+	position: relative;
+	margin-top: 15px;
+	width: 220px;
+	/*overflow: hidden;*/
+	padding-left: 40px;
+	border: 1px solid #ccc;
+	height: 100px;   /************/
+	z-index: 0;
+}
+
+/*分类的标题*/
+.catGroupTitle{
+	position: absolute;
+	top:-10px;
+	/*line-height: 20px;*/
+	height: 20px;
+	font-size: 14px;
+	color: #b81c22;
+	z-index: 9999;
+	overflow: visible;
+	display: block;
+	height: 20px;
+
+}
+.catGroupTitle a.catGroupLink{
+	
+	background: transparent none repeat scroll 0% 0% !important;
+}
+
+.catGroupWrap dl dt,dd{	
+	display: block;
+}
+
+.catGroupWrap dt{
+	padding: 10px 0px 0px 0px;
+}
+
+/*焦点图区域*/
 .focusTab{
 	width: 710px;
 	float:right;
@@ -150,11 +240,48 @@
 
 }
 
+/*===E   ===================主工作区域*/
+
 /*love  hate 原则： L V  H Adiv*/
 
+/*新平*/
+.newProWrap{
+	width: 980px;
+	height: 348px;
+	margin: 0 auto;
+
+}
+
+.newProTitle{
+	height: 40px;
+	font-size: 16px;
+	font-weight: 700px;
+	line-height: 34px;
+	margin: 10px 0 0 0;
+	border: 1px solid #ccc;
+}
 
 
+.newProWrap ul li{
+	float: left;
+	display: block;
+	width: 194px;
+	border: 1px solid blue;
+	height: 307px;
+}
+/*<div class="newProWrap">
+			<div class="newProTitle"></div>
+			<ul class="newProList">
+				<li class="newProItem"></li>
+				<li class="newProItem"></li>
+				<li class="newProItem"></li>
+				<li class="newProItem"></li>
+				<li class="newProItem"></li>
+			</ul>
+		</div>
 
+
+*/
 
 
 
